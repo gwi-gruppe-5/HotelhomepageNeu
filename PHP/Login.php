@@ -15,7 +15,7 @@
 
 <div class="container">
     <div class="header-container">
-        <a class="Logo" href="sytleAllg">
+        <a class="Logo" href="Index.php">
             <img src="../CSS/img/Hotel.jpg" height="130" alt="Hotel-grp5">
         </a>
         <nav>
