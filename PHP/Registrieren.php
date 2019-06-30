@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
+    <link rel="icon" href="../favicon.png" type="img/png">
     <link rel="stylesheet" href="../CSS/styleAllg.css">
 </head>
 <body>
@@ -20,15 +21,19 @@
         include("../PHP/include/Header.php");
         ?>
 
-        <a class="Logo" href="Index.php">
-            <img src="../CSS/img/Hotel.jpg"  width="40%" alt="Hotel-grp5">
-        </a>
+
 
     </div>
 
     <?php
     //  DB Verbindung siehe verbindung.php
     include("../PHP/include/DBVerbindung.php");
+    ?>
+
+
+    <?php
+    //  DB Verbindung siehe verbindung.php
+    include("verbindung.php");
     ?>
 
 

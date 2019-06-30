@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
+    <link rel="icon" href="../favicon.png" type="img/png">
     <link rel="stylesheet" href="../CSS/styleAllg.css">
 </head>
 <body>
@@ -20,9 +21,6 @@
         include("../PHP/include/Header.php");
         ?>
 
-        <a class="Logo" href="Index.php">
-            <img src="../CSS/img/Hotel.jpg"  width="40%" alt="Hotel-grp5">
-        </a>
     </div>
 
     <!---
@@ -32,8 +30,8 @@
     <div class="body-container">
         <section class="body">
             <h1>Hotelhomepage Gruppe 5</h1>
-            <a class="button" href="Login.php">Registrieren</a>
-            <a class="button" href="Registrieren.php">Login</a>
+            <a class="button" href="Login.php">Login</a>
+            <a class="button" href="Registrieren.php">Registrieren</a>
         </section>
 
         <div class="text-container">

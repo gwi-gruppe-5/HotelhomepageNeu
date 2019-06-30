@@ -6,21 +6,43 @@
     font-weight: bold;
 }
 
-nav a {
+.header-container{
+    background-color: #010553;
+}
+
+.header-container img{
+    width: 100px;
+    height: 100%;
+    background-color: #787bb5;
+}
+
+.header-container li{
+    padding: 1em;
+    width: 15%;
+    text-align: center;
+
+}
+
+.header-container li a {
+    height: 100%;
+}
+
+.header-container a {
     display: block;
-    padding: 0.4em;
     text-decoration: none;
     font-weight: bold;
-    border: 1px solid darkblue;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px white inset;
-    color: gold;
-    background-color: darkblue;
+    border-left: 3px solid #787bb5;
+    border-right: 3px solid #787bb5;
+    color: white;
     transition: all .25s ease-in;
 
 }
 
-ul{
+.logo{
+    padding: 0;
+}
+
+.header-container ul{
     display:flex;
 }
 
@@ -29,17 +51,15 @@ nav a[aria-current="page"] {
     font-weight: bold;
 }
 
-nav a:hover,
-nav a:focus {
-    background: gold;
+.header-container a:hover, nav a:focus {
+    background: #787bb5;
     color: currentColor;
 }
-nav li{ display: inline-block}
+
 
 body {
-    background-color: lightblue;
-    background-image: url(../CSS/img/Hintergrund2.PNG);
-    background-size: 200%;
+    font-family: sans-serif;
+    
 }
 
 h1{
@@ -51,3 +71,10 @@ h1{
 .button:active{
     font-weight: bolder;
 }
+
+.footer-container{
+    border-top: 3px solid #787bb5;
+    border-bottom:  3px solid #787bb5;
+    text-align: center;
+}
+

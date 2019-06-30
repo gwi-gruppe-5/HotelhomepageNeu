@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
+    <link rel="icon" href="../favicon.png" type="img/png">
     <link rel="stylesheet" href="../CSS/styleAllg.css">
 </head>
 <body>
@@ -15,15 +16,9 @@
 
 <div class="container">
     <div class="header-container">
-
         <?php
         include("../PHP/include/Header.php");
         ?>
-
-        <a class="Logo" href="Index.php">
-            <img src="../CSS/img/Hotel.jpg"  width="40%" alt="Hotel-grp5">
-        </a>
-
     </div>
 
 
@@ -74,7 +69,7 @@
         <form action="?login=1" method="post">
             <div class="login">
                 <h1>Login</h1>
-                <hr>
+
                 <input type="email" name="email" placeholder="Email eingeben"><br><br>
 
                 <input type="password" name="passwort" placeholder="Passwort eingeben"><br>

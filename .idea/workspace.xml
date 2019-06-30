@@ -3,26 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="8e7169d4-a5d3-426b-8672-d20d24a4d712" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/Logout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/img/doppelzimmer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/img/mallorca_stadt.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/styleAllg.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/styleAllg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelhomepageNeu/CSS/img/Hintergrund.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelhomepageNeu/CSS/img/Hintergrund2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelhomepageNeu/CSS/img/Hintergrund3.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelhomepageNeu/CSS/img/Hotel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelhomepageNeu/CSS/styleAllg.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelhomepageNeu/PHP/DBVerbindung.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelhomepageNeu/PHP/Index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelhomepageNeu/PHP/Login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelhomepageNeu/PHP/Registrieren.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelhomepageNeu/PHP/Zimmerauswahl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelhomepageNeu/PHP/ÜberUns.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/Gallerie.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Galerie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/Kontakt.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Kontakt.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/Registrieren.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Registrieren.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Zimmerauswahl.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Zimmer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/include/DBVerbindung.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/include/DBVerbindung.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/Zimmer.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Zimmer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/include/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/include/Header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/ÜberUns.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/ÜberUns.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +29,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="54" selection-end-column="7" />
+            <state relative-caret-position="561">
+              <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/Galerie.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -50,35 +47,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP/ÜberUns.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="64" selection-end-column="10" />
+            <state relative-caret-position="48">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/include/Header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/Benutzer.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP/Login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/Registrieren.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+            <state relative-caret-position="629">
+              <caret line="76" column="56" lean-forward="true" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PHP/include/Header.php">
+        <entry file="file://$PROJECT_DIR$/PHP/Registrieren.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="881">
+              <caret line="93" column="6" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -86,28 +88,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP/Zimmer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/Gallerie.php">
+        <entry file="file://$PROJECT_DIR$/CSS/styleAllg.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
-              <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+            <state relative-caret-position="813">
+              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/Kontakt.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/CSS/styleFooter.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -132,26 +130,30 @@
         <option value="$PROJECT_DIR$/CSS/Index.css" />
         <option value="$PROJECT_DIR$/PHP/DBVerbindung.php" />
         <option value="$PROJECT_DIR$/CSS/Logout.css" />
-        <option value="$PROJECT_DIR$/CSS/styleAllg.css" />
         <option value="$PROJECT_DIR$/PHP/include/DBVerbindung.php" />
         <option value="$PROJECT_DIR$/PHP/Zimmerauswahl.php" />
         <option value="$PROJECT_DIR$/PHP/include/Footer.php" />
-        <option value="$PROJECT_DIR$/PHP/ÜberUns.php" />
-        <option value="$PROJECT_DIR$/CSS/styleFooter.css" />
         <option value="$PROJECT_DIR$/CSS/img/styleHeader.css" />
-        <option value="$PROJECT_DIR$/PHP/Index.php" />
-        <option value="$PROJECT_DIR$/PHP/Login.php" />
-        <option value="$PROJECT_DIR$/PHP/Registrieren.php" />
-        <option value="$PROJECT_DIR$/PHP/Zimmer.php" />
         <option value="$PROJECT_DIR$/PHP/Gallerie.php" />
+        <option value="$PROJECT_DIR$/CSS/styleHeader.css" />
+        <option value="$PROJECT_DIR$/PHP/Galerie.php" />
+        <option value="$PROJECT_DIR$/PHP/ÜberUns.php" />
         <option value="$PROJECT_DIR$/PHP/Kontakt.php" />
+        <option value="$PROJECT_DIR$/PHP/Zimmer.php" />
+        <option value="$PROJECT_DIR$/CSS/styleFooter.css" />
+        <option value="$PROJECT_DIR$/PHP/Login.php" />
+        <option value="$PROJECT_DIR$/CSS/styleAllg.css" />
         <option value="$PROJECT_DIR$/PHP/include/Header.php" />
+        <option value="$PROJECT_DIR$/PHP/Benutzer.php" />
+        <option value="$PROJECT_DIR$/PHP/Index.php" />
+        <option value="$PROJECT_DIR$/PHP/Registrieren.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="484" />
+    <option name="y" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
@@ -200,6 +202,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -242,18 +245,18 @@
       <workItem from="1560709591171" duration="1878000" />
       <workItem from="1560754085230" duration="2679000" />
       <workItem from="1561882837051" duration="952000" />
-      <workItem from="1561883820273" duration="2446000" />
+      <workItem from="1561883820273" duration="12120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21316000" />
+    <option name="totallyTimeSpent" value="30990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09914712" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09914712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="0" />
@@ -306,16 +309,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/Kontakt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/styleFooter.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/styleHeader.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/styleAllg.css">
+    <entry file="file://$PROJECT_DIR$/PHP/Zimmer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -326,59 +339,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/Zimmer.php">
+    <entry file="file://$PROJECT_DIR$/PHP/Galerie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/Registrieren.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="54" selection-end-column="7" />
+        <state relative-caret-position="337">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP/ÜberUns.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="64" selection-end-column="10" />
+        <state relative-caret-position="48">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/Gallerie.php">
+    <entry file="file://$PROJECT_DIR$/PHP/Login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+        <state relative-caret-position="629">
+          <caret line="76" column="56" lean-forward="true" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/Kontakt.php">
+    <entry file="file://$PROJECT_DIR$/CSS/styleAllg.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+        <state relative-caret-position="813">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP/include/Header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="136">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/Benutzer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/Registrieren.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="93" column="6" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
         </state>
       </provider>
     </entry>
