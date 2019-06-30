@@ -15,24 +15,21 @@
 
 <div class="container">
     <div class="header-container">
+
+        <?php
+        include("../PHP/include/Header.php");
+        ?>
+
         <a class="Logo" href="Index.php">
-            <img src="../CSS/img/Hotel.jpg" height="130" alt="Hotel-grp5">
+            <img src="../CSS/img/Hotel.jpg"  width="40%" alt="Hotel-grp5">
         </a>
-        <nav>
-            <ul class="clearfix">
-                <li><a href="Zimmerauswahl">Zimmerauswhal</a></li>
-                <li><a href="ÜberUns">Über Uns</a></li>
-                <li><a href="Zimmerauswahl">Zimmerauswhal</a></li>
-                <li><a href="Zimmerauswahl">Zimmerauswhal</a></li>
-                <li><a href="Zimmerauswahl">Zimmerauswhal</a></li>
-            </ul>
-        </nav>
+
     </div>
 
 
     <?php
     //  DB Verbindung siehe verbindung.php
-    include("DBVerbindung.php");
+    include("../PHP/include/DBVerbindung.php");
     ?>
 
     <?php
@@ -40,7 +37,7 @@
         $email = $_POST['email'];
         $passwort = md5($_POST['passwort']);
 
-        $sql = "SELECT *FROM kunde where email ='$email' ";
+        $sql = "SELECT *FROM benutzer where email ='$email' ";
         $result = mysqli_query($conn, $sql);
 
         if (mysqli_num_rows($result) > 0) {
@@ -92,8 +89,9 @@
     ?>
 
     <div class="footer-container">
-        <footer>Gruppe 5</footer>
-        <footer>Henrichs Niko, Frechen Kai, Naumann Marcel, Niehaves Lennart</footer>
+        <?php
+        include("../PHP/include/Footer.php");
+        ?>
     </div>
 
 </div>

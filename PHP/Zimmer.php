@@ -23,31 +23,24 @@
         <a class="Logo" href="Index.php">
             <img src="../CSS/img/Hotel.jpg"  width="40%" alt="Hotel-grp5">
         </a>
+
     </div>
 
-    <!---
-    Button zum Registrieren / Login
-    -->
 
-    <div class="body-container">
-        <section class="body">
-            <h1>Hotelhomepage Gruppe 5</h1>
-            <a class="button" href="Login.php">Registrieren</a>
-            <a class="button" href="Registrieren.php">Login</a>
-        </section>
+    <?php
+    //  DB Verbindung siehe verbindung.php
+    include("../PHP/include/DBVerbindung.php");
+    ?>
 
-        <div class="text-container">
-            <article>Um Zimmer reservieren zu können, <br>
-                müssen sie sich anmelden/registrieren.</article>
-        </div>
-    </div>
 
     <!---
     - Footer dort werden Namen und Gruppe aufgelistet
     -->
-    <?php
-    include("../PHP/include/Footer.php");
-    ?>
+    <div class="footer-container">
+        <?php
+        include("../PHP/include/Footer.php");
+        ?>
+    </div>
 
 </div>
 
