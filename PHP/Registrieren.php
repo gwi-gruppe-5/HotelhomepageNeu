@@ -33,7 +33,7 @@
 
     <?php
     //  DB Verbindung siehe verbindung.php
-    include("verbindung.php");
+    include("../PHP/include/DBVerbindung.php");
     ?>
 
 
@@ -77,8 +77,8 @@
         //Keine Fehler, wir können den Nutzer registrieren
         if (!$error) {
             $ip = $_SERVER['REMOTE_ADDR'];
-            $sql = "INSERT INTO benutzer (IP, sessionID, nickname, passwort, gruppenname, email)
-                VALUES ('$ip', '1234', '$nickname', '$passwort','$gruppenname', '$email')";
+            $sql = "INSERT INTO kunde (KundeID,KName,KVorname,KStraße,KOrt,KMobilNr,KJahresumsatz,user ,password,isAdmin,email,Kplz)
+                VALUES ('$KId','$KName','$KVorname','$KStraße','$KOrt','$KMobilNr', ,'$user','$password',0,'$email','$KPlz')";
 
             if (mysqli_query($conn, $sql)) {
                 echo "Erfolgreich registriert";
@@ -97,15 +97,24 @@
         <div class="Registration">
             <h1>Registration</h1>
             <hr>
-            <input type="text" name="nickname" placeholder="Nickname" required><br><br>
 
-            <input type="text" name="gruppenname" placeholder="Gruppenname" required><br><br>
+            <input type="text" name="KName" placeholder="Name" required><br><br>
+
+            <input type="text" name="KVorname" placeholder="Vorname" required><br><br>
+
+            <input type="text" name="user" placeholder="Benutzername" required><br><br>
+
+            <input type="text" name="KStraße" placeholder="Straße" required><br><br>
+
+            <input type="text" name="KPlz" placeholder="PLZ" required><br><br>
+
+            <input type="text" name="KOrt" placeholder="Ort" required><br><br>
 
             <input type="email" name="email" placeholder="Email" required><br><br>
 
             <input type="password" name="passwort" placeholder="Passwort" required><br><br>
-
-            <input type="password" name="passwort2" placeholder="Passwort" required><br><br>
+            
+            <input type="password" name="passwort2" placeholder="Passwort wiederholen" required><br><br>
 
             <input type="submit" value="Abschicken">
         </div>
