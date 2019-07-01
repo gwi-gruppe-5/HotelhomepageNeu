@@ -25,12 +25,18 @@
     <?php
     //  DB Verbindung siehe verbindung.php
     include("../PHP/include/DBVerbindung.php");
-    include("../PHP/include/buchungsdaten.php");
+    if (isset($_GET['suchen']))
+    {
+        $date1 = $_POST['date1'];
+        $date2 = $_POST['date2'];
+        $zimmerID = $_POST['zimmer'];
+
+    }
 
     ?>
 
 
-    <form action="/zimmer_suchen.php" method="post">
+    <form action="?suchen=1" method="post">
         Anreisedatum
         <input type="date" name="date1">
         Abreisedatum
@@ -45,6 +51,14 @@
 
     </form>
 
+
+    <div class="freie-zimmer">
+        <?php
+            
+        ?>
+
+
+    </div>
 
     <div class="footer-container">
         <?php
