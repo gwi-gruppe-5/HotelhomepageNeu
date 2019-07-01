@@ -1,0 +1,86 @@
+
+.introduction-text h
+{
+    font-family: "Brush Script MT","Times New Roman";
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header-container{
+    background-color: #9b170e;
+}
+
+.header-container img{
+    width: 100px;
+    height: 100%;
+    background-color: #9b170e;
+}
+
+.header-container li{
+    padding: 1em;
+    width: 15%;
+    text-align: center;
+    display: inline-block;s
+}
+
+.header-container li a {
+    height: 100%;
+}
+
+.header-container a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    border-left: 3px solid #787bb5;
+    border-right: 3px solid #787bb5;
+    color: white;
+    transition: all .25s ease-in;
+
+}
+
+.logo{
+    padding: 0;
+}
+
+.header-container ul{
+    display:flex;
+}
+
+nav a[aria-current="page"] {
+    color: orange;
+    font-weight: bold;
+    font-size: 160%;
+}
+
+.header-container a:hover, nav a:focus {
+    background: #787bb5;
+    color: currentColor;
+}
+
+
+body {
+    font-family: sans-serif;
+    
+}
+
+
+h1{
+
+}
+.button:hover{
+    font-weight: bold;
+}
+.button:active{
+    font-weight: bolder;
+}
+
+.footer-container{
+    border-top: 3px solid #787bb5;
+    border-bottom:  3px solid #787bb5;
+    text-align: center;
+}
+
+.body-container img
+{
+    float: left;
+}
