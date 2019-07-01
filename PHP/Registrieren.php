@@ -42,9 +42,10 @@
 
     if(isset($_GET['register'])) {
         $error = false;
+        $user = $_POST['user'];
         $email = $_POST['email'];
-        $nickname = $_POST['nickname'];
-        $gruppenname = $_POST['gruppenname'];
+        $KName = $_POST['KName'];
+        $KVorname = $_POST['KVorname'];
         $passwort = md5($_POST['passwort']);
         $passwort2 = md5($_POST['passwort2']);
 
@@ -78,7 +79,7 @@
         if (!$error) {
             $ip = $_SERVER['REMOTE_ADDR'];
             $sql = "INSERT INTO kunde (KundeID,KName,KVorname,KStraße,KOrt,KMobilNr,KJahresumsatz,user ,password,isAdmin,email,Kplz)
-                VALUES ('$KId','$KName','$KVorname','$KStraße','$KOrt','$KMobilNr', ,'$user','$password',0,'$email','$KPlz')";
+                VALUES (,'$KName','$KVorname',,,, ,'$user','$passwort',0,'$email',)";
 
             if (mysqli_query($conn, $sql)) {
                 echo "Erfolgreich registriert";
@@ -98,22 +99,17 @@
             <h1>Registration</h1>
             <hr>
 
+
             <input type="text" name="KName" placeholder="Name" required><br><br>
 
             <input type="text" name="KVorname" placeholder="Vorname" required><br><br>
 
             <input type="text" name="user" placeholder="Benutzername" required><br><br>
 
-            <input type="text" name="KStraße" placeholder="Straße" required><br><br>
-
-            <input type="text" name="KPlz" placeholder="PLZ" required><br><br>
-
-            <input type="text" name="KOrt" placeholder="Ort" required><br><br>
-
             <input type="email" name="email" placeholder="Email" required><br><br>
 
             <input type="password" name="passwort" placeholder="Passwort" required><br><br>
-            
+
             <input type="password" name="passwort2" placeholder="Passwort wiederholen" required><br><br>
 
             <input type="submit" value="Abschicken">
