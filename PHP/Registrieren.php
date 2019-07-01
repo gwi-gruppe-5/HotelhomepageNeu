@@ -64,8 +64,9 @@
 
         //Überprüfe, dass die E-Mail-Adresse noch nicht registriert wurde
         if (!$error) {
-            $sql = "SELECT email FROM benutzer where email = '$email'";
+            $sql = "SELECT email FROM kunde where email = '$email'";
             $result = mysqli_query($conn, $sql);
+
 
             if (mysqli_num_rows($result) > 0) {
                 // output data of each row
@@ -79,13 +80,16 @@
         if (!$error) {
             $ip = $_SERVER['REMOTE_ADDR'];
             $sql = "INSERT INTO kunde (KundeID,KName,KVorname,KStraße,KOrt,KMobilNr,KJahresumsatz,user ,password,isAdmin,email,Kplz)
-                VALUES (,'$KName','$KVorname',,,, ,'$user','$passwort',0,'$email',)";
+                VALUES ('','$KName','$KVorname','','','','' ,'$user','$passwort',0,'$email','')";
 
             if (mysqli_query($conn, $sql)) {
                 echo "Erfolgreich registriert";
             } else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
             }
+        }
+        else{
+            printf(mysqli_error());
         }
     }
 
