@@ -79,3 +79,7 @@ h1{
     text-align: center;
 }
 
+.body-container img
+{
+    float: left;
+}
