@@ -27,16 +27,23 @@
     Button zum Registrieren / Login
     -->
 
+
+
     <div class="body-container">
         <section class="body">
-            <h1>Hotelhomepage Gruppe 5</h1>
-            <a class="button" href="Login.php">Login</a>
-            <a class="button" href="Registrieren.php">Registrieren</a>
+            <!--<h1>Hotel Serenity</h1>-->
+            <div class="body-container">
+                <img src="../CSS/img/Mainpage.png" width="1910" height="900">
+                <br>
+            </div>
+
+            <center><a class="button" href="Login.php">Login</a></center><br>
+            <center><a class="button" href="Registrieren.php">Registrieren</a></center>
         </section>
 
         <div class="text-container">
-            <article>Um Zimmer reservieren zu können, <br>
-                müssen sie sich anmelden/registrieren.</article>
+            <center><article><br>
+                    Um Zimmer reservieren zu können, müssen sie sich anmelden/registrieren.</article></center>
         </div>
     </div>
 
