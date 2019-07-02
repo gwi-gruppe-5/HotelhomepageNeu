@@ -38,10 +38,9 @@
             <h1>Hotelhomepage Gruppe 5</h1>
             <a class="button" href="Login.php">Login</a>
             <a class="button" href="Registrieren.php">Registrieren</a>
-<<<<<<< Updated upstream
-=======
+
             <a class="button" href="pwreset.php">Passwort ändern</a>
->>>>>>> Stashed changes
+
         </section>
 
         <div class="text-container">
