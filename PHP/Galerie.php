@@ -100,8 +100,8 @@
         <section class="body">
             <div style="margin-left: 43%">
                 <h1>Hotelhomepage Gruppe 5</h1>
-                <a class="button" href="Login.php">Registrieren</a>
-                <a class="button" href="Registrieren.php">Login</a>
+                <a class="button" href="Login.php">Login</a>
+                <a class="button" href="Registrieren.php">Registrieren</a>
             </div>
 
         </section>
