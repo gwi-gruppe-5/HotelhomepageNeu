@@ -32,12 +32,6 @@
 
 
     <?php
-    //  DB Verbindung siehe verbindung.php
-    include("../PHP/include/DBVerbindung.php");
-    ?>
-
-
-    <?php
     $showFormular = true; //Variable ob das Registrierungsformular anezeigt werden soll
 
     if(isset($_GET['register'])) {
@@ -87,9 +81,6 @@
             } else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
             }
-        }
-        else{
-            printf(mysqli_error());
         }
     }
 
