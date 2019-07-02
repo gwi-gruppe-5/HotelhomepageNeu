@@ -27,18 +27,8 @@
     Button zum Registrieren / Login
     -->
 
-<<<<<<< Updated upstream
-    <div class="body-container">
-        <section class="body">
-            <h1>Hotelhomepage Gruppe 5</h1>
-            <a class="button" href="Login.php">Login</a>
-            <a class="button" href="Registrieren.php">Registrieren</a>
-        </section>
 
-        <div class="text-container">
-            <article>Um Zimmer reservieren zu können, <br>
-                müssen sie sich anmelden/registrieren.</article>
-        </div>
+    
 
     </div>
 
