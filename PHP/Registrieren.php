@@ -32,12 +32,6 @@
 
 
     <?php
-    //  DB Verbindung siehe verbindung.php
-    include("../PHP/include/DBVerbindung.php");
-    ?>
-
-
-    <?php
     $showFormular = true; //Variable ob das Registrierungsformular anezeigt werden soll
 
     if(isset($_GET['register'])) {
@@ -79,17 +73,14 @@
         //Keine Fehler, wir können den Nutzer registrieren
         if (!$error) {
             $ip = $_SERVER['REMOTE_ADDR'];
-            $sql = "INSERT INTO kunde (KundeID,KName,KVorname,KStraße,KOrt,KMobilNr,KJahresumsatz,user ,password,isAdmin,email,Kplz)
-                VALUES ('','$KName','$KVorname','','','','' ,'$user','$passwort',0,'$email','')";
+            $sql = "INSERT INTO kunde (KundeID,KName,KVorname,KOrt,KMobilNr,KJahresumsatz,user ,password,isAdmin,email,Kplz)
+                VALUES ('', '$KName','$KVorname','','','' ,'$user','$passwort',0,'$email','')";
 
             if (mysqli_query($conn, $sql)) {
                 echo "Erfolgreich registriert";
             } else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
             }
-        }
-        else{
-            printf(mysqli_error());
         }
     }
 
