@@ -67,17 +67,22 @@
        ?>
    </div>
 
-    <form action="?buchen=1&auswahl=1" method="post">
+
+    <div class="buchen">
+
+    <center>
+        <h2 >Jetzt kostenflichtig buchen</h2>
+        <form action="?buchen=1&auswahl=1" method="post">
         Anreisedatum
-        <input type="date" name="date1">
+        <input type="date" name="date1" required><br>
         Abreisedatum
-        <input type="date" name="date2"><br>
+        <input type="date" name="date2" required><br>
         Anzahl Personen
-        <input type="text" name="anzahl"><br>
-        <input type="submit" value="Buchen">
+        <input type="text" name="anzahl" required><br>
+        <input type="submit" value="Buchen" style="width: 100px;height: 50px; round-clip:10px ">
 
-    </form>
-
+    </form></center>
+    </div>
 
     <!---
     - Footer dort werden Namen und Gruppe aufgelistet

@@ -99,16 +99,16 @@
 
         <section class="body">
             <div style="margin-left: 43%">
-                <h1>Hotelhomepage Gruppe 5</h1>
-                <a class="button" href="Login.php">Registrieren</a>
-                <a class="button" href="Registrieren.php">Login</a>
+                <center><h1>Hotelhomepage Gruppe 5</h1></center>
+                <center><a class="button" href="Login.php">Registrieren</a></center>
+                <center><a class="button" href="Registrieren.php">Login</a></center>
             </div>
 
         </section>
 
         <div class="text-container" style="margin-top: 5%;margin-left: 43%">
-            <article>Um Zimmer reservieren zu können, <br>
-                müssen sie sich anmelden/registrieren.</article>
+            <center><article>Um Zimmer reservieren zu können, <br>
+                müssen sie sich anmelden/registrieren.</article></center>
         </div>
     </div>
 

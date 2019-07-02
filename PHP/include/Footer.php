@@ -25,7 +25,7 @@
 
     <div class="footer-left">
         <center><img src="../CSS/img/logo.png"width="200" height="100">
-        <h3>About<span>Serenity</span></h3>
+        <h3>About<span> Serenity</span></h3>
 
         <p class="footer-links">
             <a href="Index.php">Home</a>

@@ -114,7 +114,7 @@
                     echo "<div class='vZimmer'>
                           <h1>Zimmer NR $nr  </h1>
                           <img src='../CSS/img/Zimmer/Zimmer$zimmerID.PNG'
-
+                          <br>
                           </div>
     
                     ";
@@ -123,7 +123,8 @@
                         echo"Unser Einzelzimmer ist ideal für kurzfristige Übernachtungen.
 
                              Dieses Zimmer bietet folgende Ausstattung:
-                             <ul><li>Dusche</li><li>Einzelbett</li></ul>";
+                             <ul><li>Dusche</li><li>Einzelbett</li></ul>
+                             <a href='Buchen.php?auswahl=1'>Zimmer 1 buchen</a>";
                     }
                     if($nr==2)
                     {
@@ -131,35 +132,41 @@
                         "Unser Komfortzimmer ist ideal für stadtnahe Übernachtungen oder romatische Wochenenden zu Zweit
 
                         Dieses Zimmer bietet folgende Ausstattung:
-                        <ul><li>Dusche</li><li>Ehebett</li></ul>";
+                        <ul><li>Dusche</li><li>Ehebett</li></ul>
+                        <a href='Buchen.php?auswahl=2'>Zimmer 2 buchen</a>";
                     }
                     if($nr==3)
                     {
                         echo
                         "Unser Luxuszimmer bietet viel Raum für ein entspanntes Verweilen.
                          Dieses Zimmer bietet folgende Ausstattung:
-                        <ul><li>Dusche</li><li>Einzelbett</li><li>Fernseher</li></ul>";
+                        <ul><li>Dusche</li><li>Einzelbett</li><li>Fernseher</li></ul>
+                        <a href='Buchen.php?auswahl=3'>Zimmer 3 buchen</a>";
                     }
                     if($nr==4)
                     {
-                        echo "Junior Suite - Viel Platz und Luxus für ein gemütliches, großzügiges Arrangement";
+                        echo "Junior Suite - Viel Platz und Luxus für ein gemütliches, großzügiges Arrangement
+                        <a href='Buchen.php?auswahl=4'>Zimmer 4 buchen</a>";
                     }
 
                     if($nr==5)
                     {
                         echo
-                        "Die Suite Superior - das ganz besondere Erlebnis für die besonderen Momente im Leben";
+                        "Die Suite Superior - das ganz besondere Erlebnis für die besonderen Momente im Leben
+                        <a href='Buchen.php?auswahl=5'>Zimmer 5 buchen</a>";
                     }
                     if($nr==6)
                     {
                         echo"Unser Einzelzimmer ist ideal für kurzfristige Übernachtungen.
 
                              Dieses Zimmer bietet folgende Ausstattung:
-                             <ul><li>Dusche</li><li>Einzelbett</li></ul>";
+                             <ul><li>Dusche</li><li>Einzelbett</li></ul>
+                             <a href='Buchen.php?auswahl=6'>Zimmer 6 buchen</a>";
                     }
                     if($nr==7)
                     {
-                        echo "Junior Suite - Viel Platz und Luxus für ein gemütliches, großzügiges Arrangement";
+                        echo "Junior Suite - Viel Platz und Luxus für ein gemütliches, großzügiges Arrangement
+                        <a href='Buchen.php?auswahl=7'>Zimmer 7 buchen</a>";
                     }
 
                 }
@@ -174,12 +181,14 @@
 
     </div>
 
-    <div class="footer-container">
-        <?php
-        include("../PHP/include/Footer.php");
-        ?>
-    </div>
 
+
+</div>
+
+<div class="footer-container">
+    <?php
+    include("../PHP/include/Footer.php");
+    ?>
 </div>
 
 </body>

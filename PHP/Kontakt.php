@@ -30,14 +30,15 @@
 
     <div class="body-container">
         <section class="body">
-            <h1>Hotelhomepage Gruppe 5</h1>
-            <a class="button" href="Login.php">Registrieren</a>
-            <a class="button" href="Registrieren.php">Login</a>
+            <center><h1>Hotelhomepage Gruppe 5</h1></center>
+            <center><a class="button" href="Login.php">Registrieren</a></center>
+            <center><a class="button" href="Registrieren.php">Login</a></center>
         </section>
 
         <div class="text-container">
-            <article>Um Zimmer reservieren zu können, <br>
-                müssen sie sich anmelden/registrieren.</article>
+            <br>
+            <center><article>Um Zimmer reservieren zu können, <br>
+                müssen sie sich anmelden/registrieren.</article></center>
         </div>
     </div>
 
