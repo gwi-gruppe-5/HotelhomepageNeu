@@ -20,7 +20,7 @@
     padding: 1em;
     width: 15%;
     text-align: center;
-    display: inline-block;s
+    display: inline-block;
 }
 
 .header-container li a {
@@ -204,5 +204,25 @@ h1{
     position:relative;
     top:1px;
 }
+
+.freie-zimmer a {
+    background-color: #9b170e;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.buchen {
+    height: 400px;
+    text-align: center;
+}
+
+.buchen input {
+    margin: 4px;
+}
+
 
 
