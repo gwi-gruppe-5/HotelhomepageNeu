@@ -28,36 +28,126 @@
     -->
 
     <div class="body-container">
-        <section class="Galerie">
-            <div class="Bilder">
-                <img src="../CSS/img/Frühstück.png" width="932" height="500" style="margin-right: 20px;">
 
-                <img src="../CSS/img/Rezeption.png" width="932" height="500">
+        <!-- Slideshow container -->
+        <div class="slideshow-container" style="margin-top: 100px">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 8</div>
+                <img src="../CSS/img/Rooftop.PNG" style="width:100%">
+                <div class="text">Dach</div>
             </div>
-        </section>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 8</div>
+                <img src="../CSS/img/Rezeption.PNG" style="width:100%">
+                <div class="text">Rezeption</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 8</div>
+                <img src="../CSS/img/Hotel.jpg" style="width:100%">
+                <div class="text">Hotel</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 8</div>
+                <img src="../CSS/img/Buffet.PNG" style="width:100%">
+                <div class="text">Buffet</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 8</div>
+                <img src="../CSS/img/Personal.PNG" style="width:100%">
+                <div class="text">Personal</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 8</div>
+                <img src="../CSS/img/Pool.PNG" style="width:100%">
+                <div class="text">Pool</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 8</div>
+                <img src="../CSS/img/Strand.PNG" style="width:100%">
+                <div class="text">Strand</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 8</div>
+                <img src="../CSS/img/Frühstück.PNG" style="width:100%">
+                <div class="text">Frühstück</div>
+            </div>
+
+<br>
+            <!-- Next and previous buttons -->
+
+
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center; margin-top: 35%;position: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
 
 
         <section class="body">
-            <center><h1>Hotelhomepage Gruppe 5</h1></center>
-            <center><a class="button" href="Login.php">Registrieren</a></center>
-            <center><a class="button" href="Registrieren.php">Login</a></center>
+            <div style="margin-left: 43%">
+                <h1>Hotelhomepage Gruppe 5</h1>
+                <a class="button" href="Login.php">Registrieren</a>
+                <a class="button" href="Registrieren.php">Login</a>
+            </div>
+
         </section>
 
-        <div class="text-container">
-            <center><article>Um Zimmer reservieren zu können, <br>
-                müssen sie sich anmelden/registrieren.</article></center>
+        <div class="text-container" style="margin-top: 5%;margin-left: 43%">
+            <article>Um Zimmer reservieren zu können, <br>
+                müssen sie sich anmelden/registrieren.</article>
         </div>
     </div>
 
     <!---
     - Footer dort werden Namen und Gruppe aufgelistet
     -->
-    <div class="footer-container" style="margin-top: 30%">
     <?php
     include("../PHP/include/Footer.php");
     ?>
-    </div>
+
 </div>
 
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+    }
+</script>
 </body>
 </html>
