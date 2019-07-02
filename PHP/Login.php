@@ -32,14 +32,14 @@
         $email = $_POST['email'];
         $passwort = md5($_POST['passwort']);
 
-        $sql = "SELECT *FROM benutzer where email ='$email' ";
+        $sql = "SELECT *FROM kunde where email ='$email' ";
         $result = mysqli_query($conn, $sql);
 
         if (mysqli_num_rows($result) > 0) {
 
             $row = mysqli_fetch_assoc($result);
-            if ($row['passwort'] == $passwort) {
-                $_SESSION['id'] = $row['nickname'];
+            if ($row['password'] == $passwort) {
+                $_SESSION['id'] = $row['user'];
             }
         } else {
 
