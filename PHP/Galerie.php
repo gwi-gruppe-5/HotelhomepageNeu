@@ -97,22 +97,9 @@
         </div>
 
 
-<<<<<<< Updated upstream
-        <section class="body">
-            <div style="margin-left: 43%">
-                <h1>Hotelhomepage Gruppe 5</h1>
-                <a class="button" href="Login.php">Login</a>
-                <a class="button" href="Registrieren.php">Registrieren</a>
-            </div>
 
-        </section>
+        
 
-        <div class="text-container" style="margin-top: 5%;margin-left: 43%">
-            <article>Um Zimmer reservieren zu können, <br>
-                müssen sie sich anmelden/registrieren.</article>
-        </div>
-=======
->>>>>>> Stashed changes
     </div>
 
     <!---

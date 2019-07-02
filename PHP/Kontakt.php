@@ -39,9 +39,7 @@
             <article>Um Zimmer reservieren zu können, <br>
                 müssen sie sich anmelden/registrieren.</article>
         </div>
-=======
 
->>>>>>> Stashed changes
     </div>
 
     <!---
