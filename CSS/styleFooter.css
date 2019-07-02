@@ -40,6 +40,9 @@ header span{
 footer{
     position: fixed;
     bottom: 0;
+    clear:both;
+    height:150px;
+    margin-top: -150px;
 }
 
 @media (max-height:800px){

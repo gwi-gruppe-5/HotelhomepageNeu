@@ -28,25 +28,35 @@
     -->
 
     <div class="body-container">
+        <section class="Galerie">
+            <div class="Bilder">
+                <img src="../CSS/img/Frühstück.png" width="932" height="500" style="margin-right: 20px;">
+
+                <img src="../CSS/img/Rezeption.png" width="932" height="500">
+            </div>
+        </section>
+
+
         <section class="body">
-            <h1>Hotelhomepage Gruppe 5</h1>
-            <a class="button" href="Login.php">Registrieren</a>
-            <a class="button" href="Registrieren.php">Login</a>
+            <center><h1>Hotelhomepage Gruppe 5</h1></center>
+            <center><a class="button" href="Login.php">Registrieren</a></center>
+            <center><a class="button" href="Registrieren.php">Login</a></center>
         </section>
 
         <div class="text-container">
-            <article>Um Zimmer reservieren zu können, <br>
-                müssen sie sich anmelden/registrieren.</article>
+            <center><article>Um Zimmer reservieren zu können, <br>
+                müssen sie sich anmelden/registrieren.</article></center>
         </div>
     </div>
 
     <!---
     - Footer dort werden Namen und Gruppe aufgelistet
     -->
+    <div class="footer-container" style="margin-top: 30%">
     <?php
     include("../PHP/include/Footer.php");
     ?>
-
+    </div>
 </div>
 
 </body>
