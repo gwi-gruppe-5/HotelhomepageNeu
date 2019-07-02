@@ -28,13 +28,11 @@
         <h3>About<span>Serenity</span></h3>
 
         <p class="footer-links">
-            <a href="#">Home</a>
+            <a href="Index.php">Home</a>
             |
-            <a href="#">Blog</a>
+            <a href="Überuns.php">About</a>
             |
-            <a href="#">About</a>
-            |
-            <a href="#">Contact</a>
+            <a href="Kontakt.php">Contact</a>
         </p>
 
             <p class="footer-company-name">© 2019 WHS Bocholt</p></center>
