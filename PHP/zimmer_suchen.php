@@ -113,7 +113,7 @@
 
                     echo "<div class='vZimmer'>
                           <h1>Zimmer NR $nr  </h1>
-                          <img src='../CSS/img/Zimmer/Zimmer$nr.PNG'
+                          <img src='../CSS/img/Zimmer/Zimmer$zimmerID.PNG'
 
                           </div>
     

@@ -31,7 +31,7 @@
 
 
         <h2>Einzelzimmer</h2>
-        <img src="../CSS/img/Zimmer/Z3.PNG" width="40%">
+        <img src="../CSS/img/Zimmer/Zimmer1.PNG" width="40%">
         <p>Unser Einzelzimmer ist ideal für kurzfristige Übernachtungen<br>
 
         </p>
@@ -40,28 +40,28 @@
     <div>
     <div style="margin-top: 30%">
         <h2>Komfortzimmer</h2>
-        <img src="../CSS/img/Zimmer/Z2.PNG" width="40%">
+        <img src="../CSS/img/Zimmer/Zimmer2.PNG" width="40%">
         <p>Unser Komfortzimmer ist ideal für stadtnahe Übernachtungen oder romatische Wochenenden zu Zweit</p>
         <br>
     </div>
 
     <div style="margin-top: 30%">
         <h2>Luxuszimmer</h2>
-        <img src="../CSS/img/Zimmer/Z3.PNG" width="40%">
+        <img src="../CSS/img/Zimmer/Zimmer3.PNG" width="40%">
         <p>Unser Luxuszimmer bietet viel Raum für ein entspanntes Verweilen.</p>
         <br>
     </div>
 
     <div style="margin-top: 30%">
         <h2>Juniorsuite</h2>
-        <img src="../CSS/img/Zimmer/Z6.PNG" width="40%">
+        <img src="../CSS/img/Zimmer/Zimmer4.PNG" width="40%">
         <p>Junior Suite - Viel Platz und Luxus für ein gemütliches, großzügiges Arrangement</p>
         <br>
     </div>
 
         <div style="margin-top: 30%">
             <h2>Suitesuperior</h2>
-            <img src="../CSS/img/Zimmer/Z8.PNG" width="40%">
+           <a href="zimmer_suchen.php?zimmer=5"><img src="../CSS/img/Zimmer/Zimmer5.PNG" width="40%"></a>
             <p>Die Suite Superior - das ganz besondere Erlebnis für die besonderen Momente im Leben</p>
             <br>
         </div>

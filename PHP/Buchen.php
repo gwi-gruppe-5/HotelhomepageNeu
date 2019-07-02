@@ -32,11 +32,26 @@
        if(isset($_GET['auswahl']))
        {
            $zimmerNr = $_GET['auswahl'];
-           $date1 = $_GET['d1'];
-           $date2 = $_GET['d2'];
+           $date1 = $_POST['date1'];
+           $date2 = $_POST['date2'];
+       }
+
+       if(isset($_GET['buchen']))
+       {
+           if{}
        }
        ?>
    </div>
+
+    <form action="?buchen=1" method="post">
+        Anreisedatum
+        <input type="date" name="date1">
+        Abreisedatum
+        <input type="date" name="date2"><br>
+        <input type="submit" value="Buchen">
+
+    </form>
+
 
     <!---
     - Footer dort werden Namen und Gruppe aufgelistet
