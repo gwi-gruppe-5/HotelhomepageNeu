@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
+    <link rel="icon" href="../favicon.png" type="img/png">
     <link rel="stylesheet" href="../CSS/styleAllg.css">
 </head>
 <body>
@@ -15,19 +16,11 @@
 
 <div class="container">
     <div class="header-container">
-        <a class="Logo" href="Index.php">
-            <img src="../CSS/img/Hotel.jpg" height="130" alt="Hotel-grp5">
-        </a>
-        <nav>
-            <ul class="clearfix">
-                <li><a href="Index.php">Startseite</a></li>
-                <li><a href="Zimmerauswahl">Zimmerauswhal</a></li>
-                <li><a href="ÜberUns">Über Uns</a></li>
-                <li><a href="Zimmerauswahl">Zimmerauswhal</a></li>
-                <li><a href="Zimmerauswahl">Zimmerauswhal</a></li>
-                <li><a href="Zimmerauswahl">Zimmerauswhal</a></li>
-            </ul>
-        </nav>
+
+        <?php
+        include("../PHP/include/Header.php");
+        ?>
+
     </div>
 
     <!---
@@ -37,8 +30,8 @@
     <div class="body-container">
         <section class="body">
             <h1>Hotelhomepage Gruppe 5</h1>
-            <a class="button" href="Login.php">Registrieren</a>
-            <a class="button" href="Registrieren.php">Login</a>
+            <a class="button" href="Login.php">Login</a>
+            <a class="button" href="Registrieren.php">Registrieren</a>
         </section>
 
         <div class="text-container">
@@ -50,10 +43,9 @@
     <!---
     - Footer dort werden Namen und Gruppe aufgelistet
     -->
-    <div class="footer-container">
-        <footer>Gruppe 5</footer>
-        <footer>Henrichs Niko, Frechen Kai, Naumann Marcel, Niehaves Lennart</footer>
-    </div>
+    <?php
+    include("../PHP/include/Footer.php");
+    ?>
 
 </div>
 

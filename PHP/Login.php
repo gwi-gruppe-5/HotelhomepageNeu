@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
+    <link rel="icon" href="../favicon.png" type="img/png">
     <link rel="stylesheet" href="../CSS/styleAllg.css">
 </head>
 <body>
@@ -15,24 +16,15 @@
 
 <div class="container">
     <div class="header-container">
-        <a class="Logo" href="Index.php">
-            <img src="../CSS/img/Hotel.jpg" height="130" alt="Hotel-grp5">
-        </a>
-        <nav>
-            <ul class="clearfix">
-                <li><a href="Zimmerauswahl">Zimmerauswhal</a></li>
-                <li><a href="ÜberUns">Über Uns</a></li>
-                <li><a href="Zimmerauswahl">Zimmerauswhal</a></li>
-                <li><a href="Zimmerauswahl">Zimmerauswhal</a></li>
-                <li><a href="Zimmerauswahl">Zimmerauswhal</a></li>
-            </ul>
-        </nav>
+        <?php
+        include("../PHP/include/Header.php");
+        ?>
     </div>
 
 
     <?php
     //  DB Verbindung siehe verbindung.php
-    include("DBVerbindung.php");
+    include("../PHP/include/DBVerbindung.php");
     ?>
 
     <?php
@@ -40,7 +32,7 @@
         $email = $_POST['email'];
         $passwort = md5($_POST['passwort']);
 
-        $sql = "SELECT *FROM kunde where email ='$email' ";
+        $sql = "SELECT *FROM benutzer where email ='$email' ";
         $result = mysqli_query($conn, $sql);
 
         if (mysqli_num_rows($result) > 0) {
@@ -77,7 +69,7 @@
         <form action="?login=1" method="post">
             <div class="login">
                 <h1>Login</h1>
-                <hr>
+
                 <input type="email" name="email" placeholder="Email eingeben"><br><br>
 
                 <input type="password" name="passwort" placeholder="Passwort eingeben"><br>
@@ -92,8 +84,9 @@
     ?>
 
     <div class="footer-container">
-        <footer>Gruppe 5</footer>
-        <footer>Henrichs Niko, Frechen Kai, Naumann Marcel, Niehaves Lennart</footer>
+        <?php
+        include("../PHP/include/Footer.php");
+        ?>
     </div>
 
 </div>
