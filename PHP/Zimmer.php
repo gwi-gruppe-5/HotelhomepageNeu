@@ -89,3 +89,9 @@
 
 </body>
 </html>
+
+<?php
+// Verbindung zur DB trennen
+
+mysqli_close($conn);
+?>
