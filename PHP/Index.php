@@ -33,7 +33,7 @@
         <section class="body">
             <!--<h1>Hotel Serenity</h1>-->
             <div class="body-container">
-                <img src="../CSS/img/Main.png"  height="900" style="width:100%;">
+                <img src="../CSS/img/Mainpage.png"  height="900" style="width:100%;">
                 <div class="centered">Viel Spaß in eurem Hotel Serenity!</div>
                 <br>
             </div>
