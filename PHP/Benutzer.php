@@ -38,6 +38,10 @@
             <h1>Hotelhomepage Gruppe 5</h1>
             <a class="button" href="Login.php">Login</a>
             <a class="button" href="Registrieren.php">Registrieren</a>
+<<<<<<< Updated upstream
+=======
+            <a class="button" href="pwreset.php">Passwort ändern</a>
+>>>>>>> Stashed changes
         </section>
 
         <div class="text-container">
@@ -45,13 +49,6 @@
                 müssen sie sich anmelden/registrieren.</article>
         </div>
     </div>
-
-    <form action="pw2.php" method="post" >
-        altes Passwort:<input type="password" name="passwort_alt" />
-        neues Passwort:<input type="password" name="passwort_neu" />
-        <input type="submit" value="&Auml;ndern" />
-    </form>
-
 
 
 

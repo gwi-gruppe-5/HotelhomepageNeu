@@ -52,16 +52,7 @@
            <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19719.15420464904!2d6.628283339550781!3d51.844626549999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf461a835238b4f4d!2sWestf%C3%A4lische+Hochschule%2C+Campus+Bocholt!5e0!3m2!1sde!2sde!4v1562072175231!5m2!1sde!2sde" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
         </div>
 
-        <section class="body">
-            <h1>Hotelhomepage Gruppe 5</h1>
-            <center><a class="button" href="Login.php">Login</a></center><br>
-            <center><a class="button" href="Registrieren.php">Registrieren</a></center>
-        </section>
 
-        <div class="text-container">
-            <center><article><br>
-                    Um Zimmer reservieren zu können, müssen sie sich anmelden/registrieren.</article></center>
-        </div>
     </div>
 
     <!---

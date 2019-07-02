@@ -21,13 +21,13 @@
         include("../PHP/include/Header.php");
         ?>
 
-
     </div>
 
     <!---
     Button zum Registrieren / Login
     -->
 
+<<<<<<< Updated upstream
     <div class="body-container">
         <section class="body">
             <h1>Hotelhomepage Gruppe 5</h1>
@@ -39,6 +39,9 @@
             <article>Um Zimmer reservieren zu können, <br>
                 müssen sie sich anmelden/registrieren.</article>
         </div>
+=======
+
+>>>>>>> Stashed changes
     </div>
 
     <!---
